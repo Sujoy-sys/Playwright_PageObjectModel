@@ -9,6 +9,7 @@ test('Login_Test', async({page})=>{
 
     await page.goto('https://the-internet.herokuapp.com/login');
     await login.Login('tomsmith', 'SuperSecretPassword!');
-    await page.close();
+    // await page.pause();
+    //await page.close();
    
 });
